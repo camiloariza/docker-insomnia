@@ -12,5 +12,5 @@ docker run -it --rm \
        -e DISPLAY=unix$DISPLAY \
        -v /tmp/.X11-unix:/tmp/.X11-unix \
        -v $(pwd):/data/ \
-       camiloariza/insomnia"
+       camiloariza/insomnia
 ```
